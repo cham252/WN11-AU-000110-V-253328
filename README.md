@@ -69,12 +69,7 @@ This screenshot shows the system configured with **No Auditing** for Sensitive P
 ---
 
 ### Post-Remediation Validation – Auditing Enabled
-![Post Remediation Validation](evidence/02-auditpol-sensitive-privilege-use-remediated.jpeg)
 
 This screenshot confirms **Sensitive Privilege Use – Failure** auditing is enabled following remediation.
 
 ---
-
-## Evidence Summary
-
-All evidence files are stored in the `evidence/` directory:
