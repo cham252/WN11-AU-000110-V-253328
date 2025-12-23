@@ -63,8 +63,7 @@ After enabling Sensitive Privilege Use failure auditing, the system returned the
 ## Evidence
 
 ### Initial Finding – Auditing Disabled
-![Initial Finding](evidence/01-auditpol-sensitive-privilege-use-finding.jpeg)
-
+(https://github.com/cham252/WN11-AU-000110-V-253328/blob/main/auditpol-sensitive-privilege-use-finding.jpeg)
 This screenshot shows the system configured with **No Auditing** for Sensitive Privilege Use, resulting in a valid STIG finding.
 
 ---
