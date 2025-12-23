@@ -51,7 +51,6 @@ auditpol /get /subcategory:"Sensitive Privilege Use"
 ---
 
 ## Result
-
 The audit policy was successfully remediated and revalidated.
 
 After enabling Sensitive Privilege Use failure auditing, the system returned the required configuration and now meets DISA STIG requirements.
@@ -63,13 +62,11 @@ After enabling Sensitive Privilege Use failure auditing, the system returned the
 ## Evidence
 
 ### Initial Finding – Auditing Disabled
-(https://github.com/cham252/WN11-AU-000110-V-253328/blob/main/auditpol-sensitive-privilege-use-finding.jpeg)
-This screenshot shows the system configured with **No Auditing** for Sensitive Privilege Use, resulting in a valid STIG finding.
+![Initial Finding – Auditing Disabled](auditpol-sensitive-privilege-use-finding.jpeg)This screenshot shows the system configured with **No Auditing** for Sensitive Privilege Use, resulting in a valid STIG finding.
 
 ---
 
 ### Post-Remediation Validation – Auditing Enabled
-
-This screenshot confirms **Sensitive Privilege Use – Failure** auditing is enabled following remediation.
+![Post-Remediation Validation](auditpol-sensitive-privilege-use-remediated.jpeg)This screenshot confirms **Sensitive Privilege Use – Failure** auditing is enabled following remediation.
 
 ---
